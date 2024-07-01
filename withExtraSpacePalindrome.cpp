@@ -17,7 +17,7 @@ bool isPalindrome(string s) {
                 s3 += tolower(s[i]);
         }
         
-        cout<<s3<<endl;
+        
      
         string resultString = "";
         for(int i = s3.size()-1 ; i >=0 ; i--)
@@ -26,7 +26,7 @@ bool isPalindrome(string s) {
                 resultString += s3[i];
         }
         
-     cout<<resultString<<endl;
+     
 
         if(resultString==s3)
             return true;
